@@ -30,7 +30,7 @@ services:
    
 
   nginx:
-   image: nginx
+   build: ./nginx/
    ports:
      - "80:80"
    depends_on:
